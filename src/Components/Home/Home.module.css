@@ -1,0 +1,89 @@
+*,::before,::after{ margin: 0; box-sizing: border-box;}
+a{ text-decoration: none;}
+label{ display: inline-block;}
+img{ vertical-align: bottom;}
+button{ cursor: pointer; padding: 0;}
+:disabled, input[type="text"]:read-only{ cursor: not-allowed;}
+input:focus{ outline: 1px dashed;}
+iframe{ border: none;}
+ul{ list-style: none; padding: 0;}
+
+html{ font-size: 15px;}
+
+body{ 
+    font-family: system-ui, sans-serif;
+    }
+
+.containerBanner{
+    /* background-color: white; */
+    max-width: 1600px;
+    margin: auto;
+    padding: 0px 1.5rem;
+}
+
+.rowFirst{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -1.5rem;
+}
+
+
+/* [class^="col-"]{ padding: 0 1rem; flex: 1 0 auto;} */
+
+/* ek row me 12 column:- 12/1 */
+.col1{ flex-basis: 8.33%; max-width: 8.33%;}
+
+/* ek row me 6 column:- 12/2 */
+.col2{ flex-basis: 16.66%; max-width: 16.66%;}
+
+/* ek row me 4 column:- 12/4 */
+.col3{ flex-basis: 25%; max-width: 25%;} 
+/* .col-3{ padding: 0 1rem; flex: 1 0 calc(3/12 * 100%);} */
+
+/* ek row me 3 column :- 12/3 */
+.col4{ flex-basis: 33.33%; max-width: 33.33%;}
+
+.col5{ flex-basis: 41.66%; max-width: 41.66%;}
+
+/* ek row me 2 column:- 12/2:- */
+.col6{ flex-basis: 50%; max-width: 50%;}
+
+.col7{ flex-basis: 58.33%; max-width: 58.33%;}
+
+.col8{ flex-basis: 66.66%; max-width: 66.66%;}
+
+.col9{ flex-basis: 75%; max-width: 75%;}
+
+.col10{ flex-basis: 83.33%; max-width: 83.33%;}
+
+.col11{ flex-basis: 91.66%; max-width: 91.66%;}
+
+.col12{ flex-basis: 100%; max-width: 100%;}
+
+.flex{ display: flex;}
+.justifyCont{ justify-content: center;}
+.alignCent{ align-items: center;}
+.spaceBet{ justify-content: space-between;}
+.textAli{ text-align: center;}
+.flexEnd{ justify-content: flex-end;}
+.spaceAround{ justify-content: space-around;}
+.spaceEvenly{ justify-content: space-evenly;}
+.flexStart{ justify-content: flex-start;}
+
+
+/* CUSTOM-CODE */
+.bannerCol{
+    background-image: url(/src/components/Assets/bcg.jpg);
+    background-size: 1600px 750px;
+    max-width: 1600px;
+    height: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 80px 50px;
+}
+.bannerCol h2{ font-size: 70px; color: black; margin-top: 40px;}
+.para{ width: 400px; color: black; font-weight: lighter; line-height: 25px; margin-top: 60px; font-size: 20px;}
+.para p{text-align: center;}
+.bannerBtn{ padding: 18px 30px; font-size: 20px; background-color: rgb(243, 60, 36); color: white; border: none; margin-top: 60px;}
+.bannerBtn:hover{ background-color: rgb(234, 112, 37);}
+
+

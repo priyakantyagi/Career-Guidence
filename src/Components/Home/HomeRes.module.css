@@ -1,0 +1,83 @@
+/* RESPONSIVE-BREAK-POINTS:- */
+
+@media screen and (max-width:2000px) {}
+    
+/* Big landscape */
+@media screen and (max-width:1500px) {
+    
+}
+
+/* Ipad-landscape:- */
+@media screen and (max-width:1220px) {
+
+    .bannerCol{text-align: center; height: 1200px; background-size: cover;}
+     .bannerCol h2{ margin-top: 60px; font-size: 60px;}
+    .para{ margin: 90px auto 10px auto; font-size: 20px;}
+    .bannerBtn{ margin-top: 70px; }
+}
+
+
+/* Ipad potrait:- */
+@media screen and (max-width:980px) {
+
+    /* t means tab :- tab potrait */
+    .colT1 {flex-basis: 8.33%; max-width: 8.33%;}
+    .colT2 {flex-basis: 16.66%; max-width: 16.66%;}
+    .colT3 {flex-basis: 25%; max-width: 25%;}
+    .colT4 {flex-basis: 33.33%; max-width: 33.33%;}
+    .colT5 {flex-basis: 41.66%; max-width: 41.66%;}
+    .colT6 {flex-basis: 50%; max-width: 50%;}
+    .colT7 {flex-basis: 58.33%; max-width: 58.33%;}
+    .colT8 {flex-basis: 66.66%; max-width: 66.66%;}
+    .colT9 {flex-basis: 75%; max-width: 75%;}
+    .colT10 {flex-basis: 83.33%; max-width: 83.33%;}
+    .colT11 {flex-basis: 91.66%; max-width: 91.66%;}
+    .colT12 {flex-basis: 100%; max-width: 100%;}
+
+     .bannerCol{text-align: center; height: 1000px; background-size: cover;}
+     .bannerCol h2{ margin-top: 60px; font-size: 60px;}
+    .para{ margin: 90px auto 10px auto; font-size: 20px;}
+    .bannerBtn{ margin-top: 70px;}
+    
+}
+
+
+/* Mobile landscape:- */
+@media screen and (max-width:768px) {
+    html {
+        font-size: 13px;
+    }
+    .colM6 {flex-basis: 50%; max-width: 50%;}
+    .colM10 {flex-basis: 83.33%; max-width: 83.33%;}
+    .colM12 {flex-basis: 100%; max-width: 100%;}
+    label[for="mob-btn"] {display: block;}
+
+    .bannerCol h2{ font-size: 54px; margin-top: 20px;}
+    .bannerCol{text-align: center; height: 700px;}
+    .para{ margin: 60px auto 10px auto; font-size: 18px; font-weight: bold;}
+}
+
+
+@media screen and (max-width:550px) {
+    
+}
+
+
+/* Mobile potrait:- */
+@media screen and (max-width:460px) {
+
+    /* p means potrait mobile:- */
+    .colP4 {flex-basis: 33.33%; max-width: 33.33%;}
+    .colP6 {flex-basis: 50%; max-width: 50%;}
+    .colP12 {flex-basis: 100%; max-width: 100%;}
+
+    .para{ width: 250px; display: flex; justify-content: center; align-items: center; }
+    .bannerCol h2{ font-size: 40px;}
+    .bannerCol{text-align: center;}
+    .bannerCol .para{ margin: 50px auto 10px auto; font-size: 18px; font-weight: normal;}
+    .bannerBtn{ margin-top: 40px;}
+    
+}
+
+
+

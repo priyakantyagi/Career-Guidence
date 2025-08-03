@@ -1,0 +1,48 @@
+/* CollegeList.module.css */
+
+.bigContainer{
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container {
+  padding: 2rem;
+  background-color: #f9f9ff;
+  text-align: center;
+}
+.container h2{
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.list li {
+  background-color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 3rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-size: 1.1rem;
+  color: #333;
+  transition: transform 0.2s ease;
+}
+
+.list li:hover {
+  transform: translateY(-3px);
+  background-color: #eef4ff;
+  cursor: pointer;
+}

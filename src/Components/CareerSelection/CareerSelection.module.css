@@ -1,0 +1,159 @@
+.containerfirst {
+  width: 100%;
+  margin: auto;
+  padding: 14px 1.5rem;
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -1rem;
+  gap: 2.8rem;
+  padding-bottom: 2rem;
+  justify-content: space-evenly;
+}
+
+[class^="col-"] {
+  padding: 0 1rem;
+  flex: 1 0 auto;
+}
+
+/* ek row me 12 column:- 12/1 */
+.col1 {
+  flex-basis: 8.33%;
+  max-width: 8.33%;
+}
+
+/* ek row me 6 column:- 12/2 */
+.col2 {
+  flex-basis: 16.66%;
+  max-width: 16.66%;
+}
+
+/* ek row me 4 column:- 12/4 */
+.col3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+/* .col-3{ padding: 0 1rem; flex: 1 0 calc(3/12 * 100%);} */
+
+/* ek row me 3 column :- 12/3 */
+.col4 {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+}
+
+.col5 {
+  flex-basis: 41.66%;
+  max-width: 41.66%;
+}
+
+/* ek row me 2 column:- 12/2:- */
+.col6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.col7 {
+  flex-basis: 58.33%;
+  max-width: 58.33%;
+}
+
+.col8 {
+  flex-basis: 66.66%;
+  max-width: 66.66%;
+}
+
+.col9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.col10 {
+  flex-basis: 83.33%;
+  max-width: 83.33%;
+}
+
+.col11 {
+  flex-basis: 91.66%;
+  max-width: 91.66%;
+}
+
+.col12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/* custom code */
+
+.heading {
+  font-size: 2.2rem;
+  margin-top: 50px;
+  margin-bottom: 2rem;
+  color: #222;
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    margin: 40px 0;
+  }
+}
+
+.card {
+  background-color: #fefefe;
+  border-radius: 12px;
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.image {
+  width: 100%;
+  /* height: 240px; */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ddd;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #444;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .grid {
+    gap: 1rem;
+  }
+
+  .image {
+    height: 120px;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+}

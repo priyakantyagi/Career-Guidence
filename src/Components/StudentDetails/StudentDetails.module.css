@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+
+.card h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 25px;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.infoGrid div {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #007bff;
+}
+
+.infoGrid p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  color: red;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.startBtn {
+  padding: 16px 32px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.startBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+

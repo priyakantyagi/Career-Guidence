@@ -1,0 +1,131 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2{ margin-top: 50px;}
+
+.timer {
+  font-size: 18px;
+  color: #ff3c3c;
+  font-weight: bold;
+}
+
+.questionBlock {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.option {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.submitBtn {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.submitBtn:hover {
+  background-color: #005fe0;
+}
+.resultContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.result {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.result h3{
+  color: green;
+}
+.nextBtn{
+  margin-bottom: 30px;
+}
+
+.timeOverMsg {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.optionLabel input[type="radio"] {
+  margin-right: 8px; 
+  transform: scale(1.1); 
+}
+.nextBtn {
+  margin-top: 30px;
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nextBtn:hover {
+  background-color: #0056b3;
+}
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 10px;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+

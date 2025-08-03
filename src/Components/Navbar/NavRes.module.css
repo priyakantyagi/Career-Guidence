@@ -1,0 +1,80 @@
+/* RESPONSIVE-BREAK-POINTS:- */
+
+@media screen and (max-width:2000px) {}
+    
+/* Big landscape */
+@media screen and (max-width:1500px) {
+    .nav-ul{ justify-content: space-evenly;}
+}
+
+/* Ipad-landscape:- */
+@media screen and (max-width:1220px) {
+    .nav-ul{ justify-content: space-evenly;}
+}
+
+
+/* Ipad potrait:- */
+@media screen and (max-width:980px) {
+
+    /* t means tab :- tab potrait */
+    .col-t-1 {flex-basis: 8.33%; max-width: 8.33%;}
+    .col-t-2 {flex-basis: 16.66%; max-width: 16.66%;}
+    .col-t-3 {flex-basis: 25%; max-width: 25%;}
+    .col-t-4 {flex-basis: 33.33%; max-width: 33.33%;}
+    .col-t-5 {flex-basis: 41.66%; max-width: 41.66%;}
+    .col-t-6 {flex-basis: 50%; max-width: 50%;}
+    .col-t-7 {flex-basis: 58.33%; max-width: 58.33%;}
+    .col-t-8 {flex-basis: 66.66%; max-width: 66.66%;}
+    .col-t-9 {flex-basis: 75%; max-width: 75%;}
+    .col-t-10 {flex-basis: 83.33%; max-width: 83.33%;}
+    .col-t-11 {flex-basis: 91.66%; max-width: 91.66%;}
+    .col-t-12 {flex-basis: 100%; max-width: 100%;}
+
+    .nav-bar{ flex-flow: column wrap;}
+    .main-heading{text-align: center;}
+    .nav-ul{ justify-content: space-evenly;}
+}
+
+
+/* Mobile landscape:- */
+@media screen and (max-width:768px) {
+    html {
+        font-size: 13px;
+    }
+
+    .col-m-6 {flex-basis: 50%; max-width: 50%;}
+    .col-m-10 {flex-basis: 83.33%; max-width: 83.33%;}
+    .col-m-12 {flex-basis: 100%; max-width: 100%;}
+    label[for="mob-btn"] {display: block;}
+
+    .col-2,.col-9 {flex-basis: 100% !important; max-width: 100% !important;}
+    .nav-bar{ flex-flow: column wrap !important;}
+    
+}
+
+
+@media screen and (max-width:550px) {
+    
+}
+
+
+/* Mobile potrait:- */
+@media screen and (max-width:460px) {
+
+    /* p means potrait mobile:- */
+
+    .col-p-4 {flex-basis: 33.33%; max-width: 33.33%;}
+    .col-p-6 {flex-basis: 50%; max-width: 50%;}
+    .col-p-12 {flex-basis: 100% !important; max-width: 100% !important;}
+
+    .col-2,.col-9 {flex-basis: 100% !important; max-width: 100% !important;}
+    .nav-bar{flex-flow: column wrap !important;}
+    .nav-ul{ align-items: center; justify-content: center;}
+    .nav-ul2{ align-items: center; justify-content: space-evenly;}
+    .nav-ul {flex-flow: column wrap !important;  width: 100%;}
+    .nav-ul li { padding: 10px 0 ;  }
+    .optionLi{ font-size: 15px !important;}
+}
+
+
+
